@@ -1,6 +1,88 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* COMMON */
+body {
+    font-family: "Whitney",sans-serif;
+}
+
+/* Header */
+header {
+    height: 80px;
+    background-color: #3161e0;
+    color: white;
+}
+
+nav {
+    line-height: 80px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.login {
+    width: 10%;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    height: 300px;
+    background-color: #23272a;
+}
+
+.col {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.top-menu {
+    list-style-type: none;
+}
+
+.top-menu li {
+    display: inline-block;
+}
+
+.login {
+    text-align: right;
+}
+
+.menu {
+    text-align: center;
+    margin: 0 50px;
+}
+
+/* Buttons */
+.btn-white {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
