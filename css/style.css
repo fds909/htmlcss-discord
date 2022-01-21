@@ -21,12 +21,14 @@ nav {
     line-height: 80px;
 }
 
-.logo {
+.logo,
+.login {
     width: 10%;
 }
 
-.login {
-    width: 10%;
+.menu {
+    width: 80%;
+    text-align: center;
 }
 
 .logo img {
@@ -62,27 +64,139 @@ footer {
     margin: auto;
 }
 
+.container-narrow {
+    width: 55%;
+    margin: auto;
+}
+
 .top-menu {
     list-style-type: none;
 }
 
 .top-menu li {
     display: inline-block;
+    margin: 0 15px;
 }
 
-.login {
-    text-align: right;
-}
-
-.menu {
+.jumbotron {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
     text-align: center;
-    margin: 0 50px;
+    padding: 200px;
 }
+
+.jumbotron-content {
+    width: 70%;
+    margin: auto;
+}
+
+.jumbotron-content p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.jumbotron a {
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+/* Advantage sections */
+
+section {
+    height: 120vh;
+    background-color: white;
+}
+
+section:nth-child(odd) {
+    background-color: #f6f6f6;
+}
+
+.advantages {
+    margin: 90px 0;
+}
+
+.col-img {
+    width: 70%;
+}
+
+.col-text {
+    width: 30%;
+}
+
+.col-text h2 {
+    line-height: 70px;
+}
+
+.col-text p {
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.container-narrow .advantages {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container-narrow a {
+    text-decoration: none;
+}
+
+.container-narrow h3 {
+    margin-bottom: 50px;
+}
+
+.container-narrow p {
+    font-size: 20px;
+    line-height: 35px;
+    margin: 30px 0;
+}
+
+.last-section {
+    height: 150vh;
+}
+
+/* Footer */
+
 
 /* Buttons */
+.btn-small {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.btn-large {
+    padding: 18px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
 .btn-white {
     background-color: white;
     color: black;
-    padding: 10px;
-    border-radius: 20px;
 }
+
+.btn-dark {
+    background-color: #23272a;
+    color: white;
+}
+
+.btn-lightblue {
+    background-color: #8ea1e1;
+    color: white;
+}
+
