@@ -44,11 +44,6 @@ img {
     width: 100%;
 }
 
-footer {
-    height: 300px;
-    background-color: #23272a;
-}
-
 .col {
     float: left;
 }
@@ -170,7 +165,89 @@ section:nth-child(odd) {
 }
 
 /* Footer */
+footer {
+    height: 70vh;
+    background-color: #23272a;
+    color: white;
+    padding: 100px 0;
+}
 
+.footer-content {
+    height: 250px;
+}
+
+.social {
+    width: 30%;
+}
+
+.menu-title {
+    width: 15%;
+}
+
+.menu-title a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 12px;
+}
+
+footer hr {
+    border: 1px solid #7289da;
+}
+
+footer h3 {
+    font-size: 35px;
+    color: #7289da;
+}
+
+footer h4 {
+    font-size: 18px;
+    color: #7289da;
+}
+
+.social-lang {
+    width: 25%;
+}
+
+.select-lang img {
+    width: 30px;
+}
+
+.social-icons i {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.up-footer {
+    height: 180px;
+}
+
+.up-footer li {
+    list-style-type: none;
+}
+
+.down-footer {
+    height: 60px;
+    border-top: 1px solid #7289da;
+    padding-top: 20px;
+}
+
+.down-footer a {
+    text-decoration: none;
+}
+
+.footer-logo,
+.register {
+    width: 50%;
+}
+
+.footer-logo img {
+    width: 100px;
+} 
+
+.register {
+    text-align: right;
+}
 
 /* Buttons */
 .btn-small {
